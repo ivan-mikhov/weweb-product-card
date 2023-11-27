@@ -6,6 +6,7 @@
     "serve": "weweb serve"
   },
   "devDependencies": {
-    "@weweb/cli": "latest"
+    "@weweb/cli": "latest",
+    "@storefront-ui/vue": "0.11.4"
   }
 }
