@@ -1,5 +1,5 @@
 {
-  "name": "product-card",
+  "name": "weweb-demo-component",
   "version": "0.0.1",
   "scripts": {
     "build": "weweb build",
@@ -7,8 +7,5 @@
   },
   "devDependencies": {
     "@weweb/cli": "latest"
-  },
-  "dependencies": {
-    "@storefront-ui/vue": "0.11.4"
   }
 }
