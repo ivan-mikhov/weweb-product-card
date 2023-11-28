@@ -5,8 +5,8 @@
     "build": "weweb build",
     "serve": "weweb serve"
   },
-  "devDependencies": {
-    "@storefront-ui/vue": "^2.5.0",
-    "@weweb/cli": "latest"
+  "dependencies": {
+    "@weweb/cli": "latest",
+    "@storefront-ui/vue": "2.5.0"
   }
 }
