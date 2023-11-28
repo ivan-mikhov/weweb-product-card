@@ -1,7 +1,24 @@
 <template>
-  <div class="my-element">
-    <p :style="textStyle">I am a custom element !</p>
-  </div>
+  <SfProductCard
+      image="https://storage.googleapis.com/sfui_docs_artifacts_bucket_public/production/smartwatch.png"
+      :imageWidth="216"
+      :imageHeight="326"
+      badgeLabel=""
+      badgeColor=""
+      title="Cotton Sweater"
+      linkTag=""
+      :scoreRating="4"
+      :reviewsCount="7"
+      :maxRating="5"
+      regularPrice=""
+      specialPrice=""
+      wishlistIcon="heart"
+      isInWishlistIcon="heart_fill"
+      :isInWishlist="false"
+      showAddToCartButton
+      :isAddedToCart="false"
+      :addToCartDisabled="false"
+  />
 </template>
 
 <script>
